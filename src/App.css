@@ -1,0 +1,34 @@
+.appContainer {
+  text-align: center;
+  background-color: #077b8a;
+  min-height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.title{
+  position: fixed;
+  text-align: center;
+  top:1vh;
+  margin: 2vh 0;
+  display: flex;
+  justify-content: center;
+}
+
+.titleBox{
+  background-color: rgb(242, 255, 255);
+  border-radius: 10px;
+}
